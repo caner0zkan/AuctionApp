@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -16,5 +17,18 @@ namespace AuctionApp.Entities
         public byte[] Image { get; set; }
         public DateTime startingDate { get; set; }
         public DateTime endingTime { get; set; }
+
+
+        public List<Bid> Bids { get; set; }
+
+        //FK
+        public int AdminID { get; set; }
+        public Admin Admin { get; set; }
+
+        public int CategoryID { get; set; }
+        public Category Category { get; set; }
+
+        public int AuctionStatusID { get; set; }
+        public AuctionStatus AuctionStatus { get; set; }
     }
 }

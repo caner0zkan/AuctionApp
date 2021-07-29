@@ -6,7 +6,7 @@ using System.Text;
 
 namespace AuctionApp.Entities
 {
-    class Admin
+    public class Admin
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
@@ -16,5 +16,7 @@ namespace AuctionApp.Entities
         public string Surname { get; set; }
         [StringLength(20)]
         public string Password { get; set; }
+
+        public List<Auction> Auctions { get; set; }
     }
 }

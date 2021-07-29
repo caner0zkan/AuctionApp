@@ -6,11 +6,13 @@ using System.Text;
 
 namespace AuctionApp.Entities
 {
-    class AuctionStatus
+    public class AuctionStatus
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
         [StringLength(10)]
         public string Status { get; set; }
+
+        public List<Auction> Auctions { get; set; }
     }
 }

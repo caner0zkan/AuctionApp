@@ -1,0 +1,9 @@
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\bin\Debug\netcoreapp3.1\AuctionApp.Entities.deps.json
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\bin\Debug\netcoreapp3.1\AuctionApp.Entities.dll
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\bin\Debug\netcoreapp3.1\AuctionApp.Entities.pdb
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.csprojAssemblyReference.cache
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.AssemblyInfoInputs.cache
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.AssemblyInfo.cs
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.csproj.CoreCompileInputs.cache
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.dll
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.pdb

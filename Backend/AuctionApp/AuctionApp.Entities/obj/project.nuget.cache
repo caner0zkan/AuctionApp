@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/aImrElJ9ubK18LuKvegsXG7WHM4jx85Xa7WqERw4+ub9YA6Zt0QGTdr3wxGa4m0F13aD2yb/tb9NHFMoJzRXg==",
+  "dgSpecHash": "ariAt/onp3kTlTqFDxaoSkvERjyqwMcoK9HF/cRaZwc2IDWHJfVRNZrekOXmO2LaRKz7+BHyXA+LIthfLpjaAg==",
   "success": true,
   "projectFilePath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\caner\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.8\\microsoft.entityframeworkcore.abstractions.5.0.8.nupkg.sha512"
+  ],
   "logs": []
 }

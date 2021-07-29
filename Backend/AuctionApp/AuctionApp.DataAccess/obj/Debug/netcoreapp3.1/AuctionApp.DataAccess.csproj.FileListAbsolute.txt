@@ -1,0 +1,15 @@
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\bin\Debug\netcoreapp3.1\AuctionApp.Entities.dll
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\obj\Debug\netcoreapp3.1\AuctionApp.DataAccess.csprojAssemblyReference.cache
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\obj\Debug\netcoreapp3.1\AuctionApp.DataAccess.AssemblyInfoInputs.cache
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\obj\Debug\netcoreapp3.1\AuctionApp.DataAccess.AssemblyInfo.cs
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\bin\Debug\netcoreapp3.1\AuctionApp.DataAccess.deps.json
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\bin\Debug\netcoreapp3.1\AuctionApp.DataAccess.runtimeconfig.json
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\bin\Debug\netcoreapp3.1\AuctionApp.DataAccess.runtimeconfig.dev.json
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\bin\Debug\netcoreapp3.1\AuctionApp.DataAccess.dll
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\bin\Debug\netcoreapp3.1\AuctionApp.DataAccess.pdb
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\bin\Debug\netcoreapp3.1\AuctionApp.Entities.pdb
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\obj\Debug\netcoreapp3.1\AuctionApp.DataAccess.csproj.CoreCompileInputs.cache
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\obj\Debug\netcoreapp3.1\AuctionApp.DataAccess.csproj.CopyComplete
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\obj\Debug\netcoreapp3.1\AuctionApp.DataAccess.dll
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\obj\Debug\netcoreapp3.1\AuctionApp.DataAccess.pdb
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.DataAccess\obj\Debug\netcoreapp3.1\AuctionApp.DataAccess.genruntimeconfig.cache
