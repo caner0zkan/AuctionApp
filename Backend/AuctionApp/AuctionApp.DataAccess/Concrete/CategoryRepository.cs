@@ -6,31 +6,7 @@ using System.Text;
 
 namespace AuctionApp.DataAccess.Concrete
 {
-    class CategoryRepository : ICategoryRepository
+    public class CategoryRepository : GenericRepository<Category, AuctionDbContext>, ICategoryRepository
     {
-        public Category CreateAuction(Category entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DeleteAuction(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Category> GetAllAuctions()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Category GetAuctionById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Category UpdateAuction(Category entity)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

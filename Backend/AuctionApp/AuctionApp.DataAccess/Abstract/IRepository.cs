@@ -7,14 +7,14 @@ namespace AuctionApp.DataAccess.Abstract
 {
     public interface IRepository<T>
     {
-        List<T> GetAllAuctions();
+        List<T> GetAll();
 
-        T GetAuctionById(int id);
+        T GetById(int id);
 
-        T CreateAuction(T entity);
+        T Create(T entity);
 
-        T UpdateAuction(T entity);
+        T Update(T entity);
 
-        void DeleteAuction(int id);
+        void Delete(T entity);
     }
 }

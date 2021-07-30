@@ -6,31 +6,7 @@ using System.Text;
 
 namespace AuctionApp.DataAccess.Concrete
 {
-    class UserRepository : IUserRepository
+    class UserRepository : GenericRepository<User, AuctionDbContext>, IUserRepository
     {
-        public User CreateAuction(User entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DeleteAuction(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<User> GetAllAuctions()
-        {
-            throw new NotImplementedException();
-        }
-
-        public User GetAuctionById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public User UpdateAuction(User entity)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

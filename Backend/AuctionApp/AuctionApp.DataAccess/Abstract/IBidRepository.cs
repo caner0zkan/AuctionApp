@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AuctionApp.DataAccess.Abstract
 {
-    public interface IBidRepository: IRepository<Auction>
+    public interface IBidRepository: IRepository<Bid>
     {
     }
 }
