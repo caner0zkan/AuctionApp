@@ -1,5 +1,6 @@
 ﻿using AuctionApp.Business.Abstract;
 using AuctionApp.DataAccess.Abstract;
+using AuctionApp.DataAccess.Concrete;
 using AuctionApp.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,9 @@ namespace AuctionApp.Business.Concrete
     class UserManager : IUserService
     {
         private IUserRepository _userRepository;
-        public UserManager(IUserRepository userRepository)
+        public UserManager()
         {
-            _userRepository = userRepository;
+            _userRepository = new UserRepository();
         }
 
         public User Create(User entity)

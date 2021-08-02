@@ -1,0 +1,14 @@
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.Business.deps.json
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.Business.dll
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.Business.pdb
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.DataAccess.dll
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.Entities.dll
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.DataAccess.pdb
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.Entities.pdb
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.csprojAssemblyReference.cache
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.AssemblyInfoInputs.cache
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.AssemblyInfo.cs
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.csproj.CoreCompileInputs.cache
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.csproj.CopyComplete
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.dll
+D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.pdb

@@ -1,5 +1,6 @@
 ﻿using AuctionApp.Business.Abstract;
 using AuctionApp.DataAccess.Abstract;
+using AuctionApp.DataAccess.Concrete;
 using AuctionApp.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,9 @@ namespace AuctionApp.Business.Concrete
     class BidManager : IBidService
     {
         private IBidRepository _bidRepository;
-        public BidManager(IBidRepository bidRepository)
+        public BidManager()
         {
-            _bidRepository = bidRepository;
+            _bidRepository = new BidRepository();
         }
 
         public Bid Create(Bid entity)

@@ -1,5 +1,6 @@
 ﻿using AuctionApp.Business.Abstract;
 using AuctionApp.DataAccess.Abstract;
+using AuctionApp.DataAccess.Concrete;
 using AuctionApp.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,9 @@ namespace AuctionApp.Business.Concrete
     class AuctionStatusManager : IAuctionStatusService
     {
         private IAuctionStatusRepository _auctionStatusRepository;
-        public AuctionStatusManager(IAuctionStatusRepository auctionStatusRepository)
+        public AuctionStatusManager()
         {
-            _auctionStatusRepository = auctionStatusRepository;
+            _auctionStatusRepository = new AuctionStatusRepository();
         }
 
         public AuctionStatus Create(AuctionStatus entity)

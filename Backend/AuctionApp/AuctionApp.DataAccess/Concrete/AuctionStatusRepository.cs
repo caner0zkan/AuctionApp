@@ -6,7 +6,7 @@ using System.Text;
 
 namespace AuctionApp.DataAccess.Concrete
 {
-    class AuctionStatusRepository : GenericRepository<AuctionStatus, AuctionDbContext>, IAuctionStatusRepository
+    public class AuctionStatusRepository : GenericRepository<AuctionStatus, AuctionDbContext>, IAuctionStatusRepository
     {
     }
 }

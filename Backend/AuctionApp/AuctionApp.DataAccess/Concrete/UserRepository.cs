@@ -6,7 +6,7 @@ using System.Text;
 
 namespace AuctionApp.DataAccess.Concrete
 {
-    class UserRepository : GenericRepository<User, AuctionDbContext>, IUserRepository
+    public class UserRepository : GenericRepository<User, AuctionDbContext>, IUserRepository
     {
     }
 }

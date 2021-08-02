@@ -1,5 +1,6 @@
 ﻿using AuctionApp.Business.Abstract;
 using AuctionApp.DataAccess.Abstract;
+using AuctionApp.DataAccess.Concrete;
 using AuctionApp.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,9 @@ namespace AuctionApp.Business.Concrete
     public class AuctionManager : IAuctionService
     {
         private IAuctionRepository _auctionRepository;
-        public AuctionManager(IAuctionRepository auctionRepository)
+        public AuctionManager()
         {
-            _auctionRepository = auctionRepository;
+            _auctionRepository = new AuctionRepository();
         }
 
         public Auction Create(Auction entity)
@@ -32,7 +33,12 @@ namespace AuctionApp.Business.Concrete
 
         public Auction GetById(int id)
         {
-            return _auctionRepository.GetById(id);
+            if (id > 0)
+            {
+                return _auctionRepository.GetById(id);
+            }
+
+            throw new Exception("id can not be less than 1");
         }
 
         public Auction Update(Auction entity)
