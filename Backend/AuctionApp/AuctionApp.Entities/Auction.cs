@@ -14,12 +14,13 @@ namespace AuctionApp.Entities
         public string Title { get; set; }
         [StringLength(150)]
         public string Comment { get; set; }
-        public byte[] Image { get; set; }
+        public int Winner { get; set; }
         public DateTime startingDate { get; set; }
         public DateTime endingTime { get; set; }
 
 
         public List<Bid> Bids { get; set; }
+        public List<Image> Image { get; set; }
 
         //FK
         public int AdminID { get; set; }

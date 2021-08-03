@@ -72,7 +72,7 @@ namespace AuctionApp.DataAccess.Migrations
                     AuctionNumber = table.Column<int>(type: "int", nullable: false),
                     Title = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     Comment = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: true),
-                    Image = table.Column<byte[]>(type: "varbinary(max)", nullable: true),
+                    Winner = table.Column<int>(type: "int", nullable: false),
                     startingDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     endingTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     AdminID = table.Column<int>(type: "int", nullable: false),
@@ -129,6 +129,26 @@ namespace AuctionApp.DataAccess.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Image",
+                columns: table => new
+                {
+                    ID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Img = table.Column<byte[]>(type: "varbinary(max)", nullable: true),
+                    AuctionID = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Image", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_Image_Auctions_AuctionID",
+                        column: x => x.AuctionID,
+                        principalTable: "Auctions",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Auctions_AdminID",
                 table: "Auctions",
@@ -153,6 +173,11 @@ namespace AuctionApp.DataAccess.Migrations
                 name: "IX_Bids_UserID",
                 table: "Bids",
                 column: "UserID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Image_AuctionID",
+                table: "Image",
+                column: "AuctionID");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -161,10 +186,13 @@ namespace AuctionApp.DataAccess.Migrations
                 name: "Bids");
 
             migrationBuilder.DropTable(
-                name: "Auctions");
+                name: "Image");
 
             migrationBuilder.DropTable(
                 name: "Users");
+
+            migrationBuilder.DropTable(
+                name: "Auctions");
 
             migrationBuilder.DropTable(
                 name: "Admins");

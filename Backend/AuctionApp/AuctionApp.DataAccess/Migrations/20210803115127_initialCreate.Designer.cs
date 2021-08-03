@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AuctionApp.DataAccess.Migrations
 {
     [DbContext(typeof(AuctionDbContext))]
-    [Migration("20210729101822_initialCreate")]
+    [Migration("20210803115127_initialCreate")]
     partial class initialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -68,12 +68,12 @@ namespace AuctionApp.DataAccess.Migrations
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar(150)");
 
-                    b.Property<byte[]>("Image")
-                        .HasColumnType("varbinary(max)");
-
                     b.Property<string>("Title")
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
+
+                    b.Property<int>("Winner")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("endingTime")
                         .HasColumnType("datetime2");
@@ -149,6 +149,26 @@ namespace AuctionApp.DataAccess.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("AuctionApp.Entities.Image", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AuctionID")
+                        .HasColumnType("int");
+
+                    b.Property<byte[]>("Img")
+                        .HasColumnType("varbinary(max)");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("AuctionID");
+
+                    b.ToTable("Image");
+                });
+
             modelBuilder.Entity("AuctionApp.Entities.User", b =>
                 {
                     b.Property<int>("ID")
@@ -219,6 +239,17 @@ namespace AuctionApp.DataAccess.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("AuctionApp.Entities.Image", b =>
+                {
+                    b.HasOne("AuctionApp.Entities.Auction", "Auction")
+                        .WithMany("Image")
+                        .HasForeignKey("AuctionID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Auction");
+                });
+
             modelBuilder.Entity("AuctionApp.Entities.Admin", b =>
                 {
                     b.Navigation("Auctions");
@@ -227,6 +258,8 @@ namespace AuctionApp.DataAccess.Migrations
             modelBuilder.Entity("AuctionApp.Entities.Auction", b =>
                 {
                     b.Navigation("Bids");
+
+                    b.Navigation("Image");
                 });
 
             modelBuilder.Entity("AuctionApp.Entities.AuctionStatus", b =>
