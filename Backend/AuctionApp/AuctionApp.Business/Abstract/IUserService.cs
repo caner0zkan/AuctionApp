@@ -11,9 +11,9 @@ namespace AuctionApp.Business.Abstract
 
         User GetById(int id);
 
-        User Create(User entity);
+        void Create(User entity);
 
-        User Update(User entity);
+        void Update(User entity);
 
         void Delete(User entity);
     }

@@ -11,9 +11,9 @@ namespace AuctionApp.Business.Abstract
 
         Image GetById(int id);
 
-        Image Create(Image entity);
+        void Create(Image entity);
 
-        Image Update(Image entity);
+        void Update(Image entity);
 
         void Delete(Image entity);
     }

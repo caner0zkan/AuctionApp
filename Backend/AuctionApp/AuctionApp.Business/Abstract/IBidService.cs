@@ -11,9 +11,9 @@ namespace AuctionApp.Business.Abstract
 
         Bid GetById(int id);
 
-        Bid Create(Bid entity);
+        void Create(Bid entity);
 
-        Bid Update(Bid entity);
+        void Update(Bid entity);
 
         void Delete(Bid entity);
     }

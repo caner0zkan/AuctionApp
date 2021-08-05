@@ -16,9 +16,9 @@ namespace AuctionApp.Business.Concrete
             _adminRepository = new AdminRepository();
         }
 
-        public Admin Create(Admin entity)
+        public void Create(Admin entity)
         {
-            return _adminRepository.Create(entity);
+            _adminRepository.Create(entity);
         }
 
         public void Delete(Admin entity)
@@ -36,9 +36,9 @@ namespace AuctionApp.Business.Concrete
             return _adminRepository.GetById(id);
         }
 
-        public Admin Update(Admin entity)
+        public void Update(Admin entity)
         {
-            return _adminRepository.Update(entity);
+            _adminRepository.Update(entity);
         }
     }
 }

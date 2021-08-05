@@ -11,14 +11,13 @@ namespace AuctionApp.DataAccess.Concrete
         where T : class
         where TContext : AuctionDbContext, new()
     {
-        public T Create(T entity)
+        public void Create(T entity)
         {
             using(var context = new TContext()) 
             {
                 context.Set<T>().Add(entity);
                 context.SaveChanges();
             }
-            throw new NotImplementedException();
         }
 
         public void Delete(T entity)
@@ -46,14 +45,13 @@ namespace AuctionApp.DataAccess.Concrete
             }
         }
 
-        public T Update(T entity)
+        public void Update(T entity)
         {
             using (var context = new TContext())
             {
                 context.Entry(entity).State = EntityState.Modified;
                 context.SaveChanges();
             }
-            throw new NotImplementedException();
         }
     }
 }

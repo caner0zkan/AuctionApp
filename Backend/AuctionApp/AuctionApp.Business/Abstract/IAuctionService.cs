@@ -12,9 +12,9 @@ namespace AuctionApp.Business.Abstract
 
         Auction GetById(int id);
 
-        Auction Create(Auction entity);
+        void Create(Auction entity);
 
-        Auction Update(Auction entity);
+        void Update(Auction entity);
 
         void Delete(Auction entity);
     }

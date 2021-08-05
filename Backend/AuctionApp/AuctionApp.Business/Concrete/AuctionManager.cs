@@ -16,9 +16,9 @@ namespace AuctionApp.Business.Concrete
             _auctionRepository = new AuctionRepository();
         }
 
-        public Auction Create(Auction entity)
+        public void Create(Auction entity)
         {
-            return _auctionRepository.Create(entity);
+            _auctionRepository.Create(entity);
         }
 
         public void Delete(Auction entity)
@@ -41,9 +41,9 @@ namespace AuctionApp.Business.Concrete
             throw new Exception("id can not be less than 1");
         }
 
-        public Auction Update(Auction entity)
+        public void Update(Auction entity)
         {
-            return _auctionRepository.Update(entity);
+            _auctionRepository.Update(entity);
         }
     }
 }

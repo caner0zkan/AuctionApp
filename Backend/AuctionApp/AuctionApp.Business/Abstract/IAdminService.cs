@@ -11,9 +11,9 @@ namespace AuctionApp.Business.Abstract
 
         Admin GetById(int id);
 
-        Admin Create(Admin entity);
+        void Create(Admin entity);
 
-        Admin Update(Admin entity);
+        void Update(Admin entity);
 
         void Delete(Admin entity);
     }

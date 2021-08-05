@@ -16,9 +16,9 @@ namespace AuctionApp.Business.Concrete
             _bidRepository = new BidRepository();
         }
 
-        public Bid Create(Bid entity)
+        public void Create(Bid entity)
         {
-            return _bidRepository.Create(entity);
+            _bidRepository.Create(entity);
         }
 
         public void Delete(Bid entity)
@@ -36,9 +36,9 @@ namespace AuctionApp.Business.Concrete
             return _bidRepository.GetById(id);
         }
 
-        public Bid Update(Bid entity)
+        public void Update(Bid entity)
         {
-            return _bidRepository.Update(entity);
+            _bidRepository.Update(entity);
         }
     }
 }

@@ -34,15 +34,15 @@ namespace AuctionApp.API.Controllers
         }
 
         [HttpPost]
-        public Admin Post([FromBody] Admin admin)
+        public void Post([FromBody] Admin admin)
         {
-            return _adminService.Create(admin);
+            _adminService.Create(admin);
         }
 
         [HttpPut]
-        public Admin Put([FromBody] Admin admin)
+        public void Put([FromBody] Admin admin)
         {
-            return _adminService.Update(admin);
+            _adminService.Update(admin);
         }
 
         [HttpDelete("{id}")]

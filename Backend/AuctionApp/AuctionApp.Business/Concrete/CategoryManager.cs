@@ -16,9 +16,9 @@ namespace AuctionApp.Business.Concrete
             _categoryRepository = new CategoryRepository();
         }
 
-        public Category Create(Category entity)
+        public void Create(Category entity)
         {
-            return _categoryRepository.Create(entity);
+            _categoryRepository.Create(entity);
         }
 
         public void Delete(Category entity)
@@ -36,9 +36,9 @@ namespace AuctionApp.Business.Concrete
             return _categoryRepository.GetById(id);
         }
 
-        public Category Update(Category entity)
+        public void Update(Category entity)
         {
-            return _categoryRepository.Update(entity);
+            _categoryRepository.Update(entity);
         }
     }
 }

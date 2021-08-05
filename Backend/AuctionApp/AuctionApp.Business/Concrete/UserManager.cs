@@ -16,9 +16,9 @@ namespace AuctionApp.Business.Concrete
             _userRepository = new UserRepository();
         }
 
-        public User Create(User entity)
+        public void Create(User entity)
         {
-            return _userRepository.Create(entity);
+            _userRepository.Create(entity);
         }
 
         public void Delete(User entity)
@@ -36,9 +36,9 @@ namespace AuctionApp.Business.Concrete
             return _userRepository.GetById(id);
         }
 
-        public User Update(User entity)
+        public void Update(User entity)
         {
-            return _userRepository.Update(entity);
+            _userRepository.Update(entity);
         }
     }
 }

@@ -11,9 +11,9 @@ namespace AuctionApp.DataAccess.Abstract
 
         T GetById(int id);
 
-        T Create(T entity);
+        void Create(T entity);
 
-        T Update(T entity);
+        void Update(T entity);
 
         void Delete(T entity);
     }

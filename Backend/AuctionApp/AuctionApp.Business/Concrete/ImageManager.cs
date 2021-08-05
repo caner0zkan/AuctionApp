@@ -16,9 +16,9 @@ namespace AuctionApp.Business.Concrete
             _imageRepository = new ImageRepository();
         }
 
-        public Image Create(Image entity)
+        public void Create(Image entity)
         {
-            return _imageRepository.Create(entity);
+            _imageRepository.Create(entity);
         }
 
         public void Delete(Image entity)
@@ -36,9 +36,9 @@ namespace AuctionApp.Business.Concrete
             return _imageRepository.GetById(id);
         }
 
-        public Image Update(Image entity)
+        public void Update(Image entity)
         {
-            return _imageRepository.Update(entity);
+            _imageRepository.Update(entity);
         }
     }
 }

@@ -11,9 +11,9 @@ namespace AuctionApp.Business.Abstract
 
         AuctionStatus GetById(int id);
 
-        AuctionStatus Create(AuctionStatus entity);
+        void Create(AuctionStatus entity);
 
-        AuctionStatus Update(AuctionStatus entity);
+        void Update(AuctionStatus entity);
 
         void Delete(AuctionStatus entity);
     }

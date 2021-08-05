@@ -11,9 +11,9 @@ namespace AuctionApp.Business.Abstract
 
         Category GetById(int id);
 
-        Category Create(Category entity);
+        void Create(Category entity);
 
-        Category Update(Category entity);
+        void Update(Category entity);
 
         void Delete(Category entity);
     }

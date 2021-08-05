@@ -16,9 +16,9 @@ namespace AuctionApp.Business.Concrete
             _auctionStatusRepository = new AuctionStatusRepository();
         }
 
-        public AuctionStatus Create(AuctionStatus entity)
+        public void Create(AuctionStatus entity)
         {
-            return _auctionStatusRepository.Create(entity);
+            _auctionStatusRepository.Create(entity);
         }
 
         public void Delete(AuctionStatus entity)
@@ -36,9 +36,9 @@ namespace AuctionApp.Business.Concrete
             return _auctionStatusRepository.GetById(id);
         }
 
-        public AuctionStatus Update(AuctionStatus entity)
+        public void Update(AuctionStatus entity)
         {
-            return _auctionStatusRepository.Update(entity);
+            _auctionStatusRepository.Update(entity);
         }
     }
 }
