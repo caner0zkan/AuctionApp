@@ -8,7 +8,7 @@ using System.Text;
 
 namespace AuctionApp.Business.Concrete
 {
-    class AdminManager : IAdminService
+    public class AdminManager : IAdminService
     {
         private IAdminRepository _adminRepository;
         public AdminManager()
