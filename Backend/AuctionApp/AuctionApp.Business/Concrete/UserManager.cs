@@ -8,7 +8,7 @@ using System.Text;
 
 namespace AuctionApp.Business.Concrete
 {
-    class UserManager : IUserService
+    public class UserManager : IUserService
     {
         private IUserRepository _userRepository;
         public UserManager()

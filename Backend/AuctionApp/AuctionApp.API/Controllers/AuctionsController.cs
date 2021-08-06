@@ -32,5 +32,23 @@ namespace AuctionApp.API.Controllers
         {
             return _auctionService.GetById(id);
         }
+
+        [HttpPost]
+        public void Post([FromBody] Auction auction)
+        {
+            _auctionService.Create(auction);
+        }
+
+        [HttpPut]
+        public void Put([FromBody] Auction auction)
+        {
+            _auctionService.Update(auction);
+        }
+
+        [HttpDelete("{id}")]
+        public void Delete(Auction auction)
+        {
+            _auctionService.Delete(auction);
+        }
     }
 }

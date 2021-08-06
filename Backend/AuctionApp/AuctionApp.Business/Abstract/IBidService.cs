@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AuctionApp.Business.Abstract
 {
-    interface IBidService
+    public interface IBidService
     {
         List<Bid> GetAll();
 

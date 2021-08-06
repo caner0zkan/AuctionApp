@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AuctionApp.Business.Abstract
 {
-    interface ICategoryService
+    public interface ICategoryService
     {
         List<Category> GetAll();
 

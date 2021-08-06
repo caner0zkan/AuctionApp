@@ -8,7 +8,7 @@ using System.Text;
 
 namespace AuctionApp.Business.Concrete
 {
-    class CategoryManager : ICategoryService
+    public class CategoryManager : ICategoryService
     {
         private ICategoryRepository _categoryRepository;
         public CategoryManager()

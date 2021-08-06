@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AuctionApp.Business.Abstract
 {
-    interface IAuctionStatusService
+    public interface IAuctionStatusService
     {
         List<AuctionStatus> GetAll();
 

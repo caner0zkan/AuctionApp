@@ -8,7 +8,7 @@ using System.Text;
 
 namespace AuctionApp.Business.Concrete
 {
-    class AuctionStatusManager : IAuctionStatusService
+    public class AuctionStatusManager : IAuctionStatusService
     {
         private IAuctionStatusRepository _auctionStatusRepository;
         public AuctionStatusManager()

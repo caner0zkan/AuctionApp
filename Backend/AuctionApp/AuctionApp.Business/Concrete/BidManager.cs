@@ -8,7 +8,7 @@ using System.Text;
 
 namespace AuctionApp.Business.Concrete
 {
-    class BidManager : IBidService
+    public class BidManager : IBidService
     {
         private IBidRepository _bidRepository;
         public BidManager()

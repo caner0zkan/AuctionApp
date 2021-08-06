@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AuctionApp.Business.Abstract
 {
-    interface IUserService
+    public interface IUserService
     {
         List<User> GetAll();
 
