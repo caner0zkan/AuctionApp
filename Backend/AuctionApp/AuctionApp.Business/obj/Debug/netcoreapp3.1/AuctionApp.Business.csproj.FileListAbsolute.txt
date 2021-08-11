@@ -12,3 +12,17 @@ D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Deb
 D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.csproj.CopyComplete
 D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.dll
 D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.pdb
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.Business.deps.json
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.Business.dll
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.Business.pdb
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.DataAccess.dll
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.Entities.dll
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.DataAccess.pdb
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\bin\Debug\netcoreapp3.1\AuctionApp.Entities.pdb
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.csproj.AssemblyReference.cache
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.AssemblyInfoInputs.cache
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.AssemblyInfo.cs
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.csproj.CoreCompileInputs.cache
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.csproj.CopyComplete
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.dll
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Business\obj\Debug\netcoreapp3.1\AuctionApp.Business.pdb

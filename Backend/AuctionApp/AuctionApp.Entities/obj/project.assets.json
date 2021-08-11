@@ -40,11 +40,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj",
+      "projectUniqueName": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj",
       "projectName": "AuctionApp.Entities",
-      "projectPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj",
+      "projectPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj",
       "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-      "outputPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\obj\\",
+      "outputPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,7 +93,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7r5+9uKUWetU5HCzOSLG+LEzQkjhyKfacfVxKetifaix8o7bOKO8Kr0AtpxML1FOZfVy0fwJY2EL0jVhv3qelw==",
+  "dgSpecHash": "oDVsL+eKo99u0/gy7rBhuT6PA5EcBdKtE3W/6PXibhirMRBkFExkgqkDKT4HDu8hJ8ez+lwxcFkvVGFOT1bVnA==",
   "success": true,
-  "projectFilePath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj",
+  "projectFilePath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caner\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\caner\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

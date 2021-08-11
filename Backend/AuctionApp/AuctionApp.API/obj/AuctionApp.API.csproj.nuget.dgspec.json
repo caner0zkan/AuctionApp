@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj": {}
+    "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj": {}
   },
   "projects": {
-    "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj": {
+    "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj",
+        "projectUniqueName": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj",
         "projectName": "AuctionApp.API",
-        "projectPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj",
+        "projectPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj",
         "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-        "outputPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\obj\\",
+        "outputPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj": {
-                "projectPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj"
+              "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj": {
+                "projectPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj"
               }
             }
           }
@@ -61,18 +61,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj": {
+    "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj",
+        "projectUniqueName": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj",
         "projectName": "AuctionApp.Business",
-        "projectPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj",
+        "projectPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj",
         "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-        "outputPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\obj\\",
+        "outputPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,11 +89,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\AuctionApp.DataAccess.csproj": {
-                "projectPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\AuctionApp.DataAccess.csproj"
+              "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\AuctionApp.DataAccess.csproj": {
+                "projectPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\AuctionApp.DataAccess.csproj"
               },
-              "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj": {
-                "projectPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj"
+              "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj": {
+                "projectPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj"
               }
             }
           }
@@ -122,18 +122,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\AuctionApp.DataAccess.csproj": {
+    "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\AuctionApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\AuctionApp.DataAccess.csproj",
+        "projectUniqueName": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\AuctionApp.DataAccess.csproj",
         "projectName": "AuctionApp.DataAccess",
-        "projectPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\AuctionApp.DataAccess.csproj",
+        "projectPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\AuctionApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-        "outputPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\obj\\",
+        "outputPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -150,8 +150,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj": {
-                "projectPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj"
+              "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj": {
+                "projectPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj"
               }
             }
           }
@@ -192,18 +192,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj": {
+    "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj",
+        "projectUniqueName": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj",
         "projectName": "AuctionApp.Entities",
-        "projectPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj",
+        "projectPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\AuctionApp.Entities.csproj",
         "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-        "outputPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\obj\\",
+        "outputPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -252,7 +252,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

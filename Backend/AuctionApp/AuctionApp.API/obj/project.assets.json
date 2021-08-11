@@ -5763,11 +5763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj",
+      "projectUniqueName": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj",
       "projectName": "AuctionApp.API",
-      "projectPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj",
+      "projectPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj",
       "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-      "outputPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\obj\\",
+      "outputPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5784,8 +5784,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj": {
-              "projectPath": "D:\\APP PROJECTS\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj"
+            "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj": {
+              "projectPath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj"
             }
           }
         }
@@ -5817,7 +5817,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

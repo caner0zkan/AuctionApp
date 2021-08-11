@@ -7,3 +7,12 @@ D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Deb
 D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.csproj.CoreCompileInputs.cache
 D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.dll
 D:\APP PROJECTS\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.pdb
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\bin\Debug\netcoreapp3.1\AuctionApp.Entities.deps.json
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\bin\Debug\netcoreapp3.1\AuctionApp.Entities.dll
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\bin\Debug\netcoreapp3.1\AuctionApp.Entities.pdb
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.csproj.AssemblyReference.cache
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.AssemblyInfoInputs.cache
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.AssemblyInfo.cs
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.csproj.CoreCompileInputs.cache
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.dll
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.Entities\obj\Debug\netcoreapp3.1\AuctionApp.Entities.pdb
