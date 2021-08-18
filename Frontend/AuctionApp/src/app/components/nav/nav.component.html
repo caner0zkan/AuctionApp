@@ -1,8 +1,10 @@
 <div class="topnav" id="myTopnav">
-  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-  <a href="#"><i class="fa fa-fw fa-user"></i> SignIn</a>
-  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a routerLinkActive="active" routerLink="/"
+  [routerLinkActiveOptions]="{exact: true}"
+  ><i class="fa fa-fw fa-home"></i
+    > Home</a>
+  <a routerLinkActive="active" routerLink="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a routerLinkActive="active" routerLink="/users"><i class="fa fa-fw fa-user"></i> SignIn/Login </a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
