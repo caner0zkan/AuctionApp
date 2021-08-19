@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-products',
@@ -7,7 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductsComponent implements OnInit {
 
-  constructor() { }
+  items: any;
+  constructor(private http: HttpClient) {
+    http.get("http://localhost:58426/api/admins")
+      .subscribe(response=> {
+        this.items = response;
+        console.log(response);
+      })
+
+  }
 
   ngOnInit(): void {
   }
