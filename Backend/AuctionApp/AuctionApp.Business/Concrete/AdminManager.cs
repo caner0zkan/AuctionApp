@@ -11,9 +11,9 @@ namespace AuctionApp.Business.Concrete
     public class AdminManager : IAdminService
     {
         private IAdminRepository _adminRepository;
-        public AdminManager()
+        public AdminManager(IAdminRepository adminRepository)
         {
-            _adminRepository = new AdminRepository();
+            _adminRepository = adminRepository;
         }
 
         public void Create(Admin entity)

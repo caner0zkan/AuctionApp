@@ -11,9 +11,9 @@ namespace AuctionApp.Business.Concrete
     public class AuctionStatusManager : IAuctionStatusService
     {
         private IAuctionStatusRepository _auctionStatusRepository;
-        public AuctionStatusManager()
+        public AuctionStatusManager(IAuctionStatusRepository auctionStatusRepository)
         {
-            _auctionStatusRepository = new AuctionStatusRepository();
+            _auctionStatusRepository = auctionStatusRepository;
         }
 
         public void Create(AuctionStatus entity)

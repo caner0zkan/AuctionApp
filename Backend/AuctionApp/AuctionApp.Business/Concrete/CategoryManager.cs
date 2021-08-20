@@ -11,9 +11,9 @@ namespace AuctionApp.Business.Concrete
     public class CategoryManager : ICategoryService
     {
         private ICategoryRepository _categoryRepository;
-        public CategoryManager()
+        public CategoryManager(ICategoryRepository categoryRepository)
         {
-            _categoryRepository = new CategoryRepository();
+            _categoryRepository = categoryRepository;
         }
 
         public void Create(Category entity)

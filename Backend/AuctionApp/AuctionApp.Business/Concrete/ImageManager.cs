@@ -11,9 +11,9 @@ namespace AuctionApp.Business.Concrete
     public class ImageManager : IImageService
     {
         private IImageRepository _imageRepository;
-        public ImageManager()
+        public ImageManager(IImageRepository imageRepository)
         {
-            _imageRepository = new ImageRepository();
+            _imageRepository = imageRepository;
         }
 
         public void Create(Image entity)

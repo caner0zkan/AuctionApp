@@ -16,9 +16,9 @@ namespace AuctionApp.API.Controllers
     {
         private IBidService _bidService;
 
-        public BidsController()
+        public BidsController(IBidService bidService)
         {
-            _bidService = new BidManager();
+            _bidService = bidService;
         }
 
         [HttpGet]

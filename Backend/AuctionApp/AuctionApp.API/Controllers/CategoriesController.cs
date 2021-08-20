@@ -16,9 +16,9 @@ namespace AuctionApp.API.Controllers
     {
         private ICategoryService _categoryService;
 
-        public CategoriesController()
+        public CategoriesController(ICategoryService categoryService)
         {
-            _categoryService = new CategoryManager();
+            _categoryService = categoryService;
         }
 
         [HttpGet]

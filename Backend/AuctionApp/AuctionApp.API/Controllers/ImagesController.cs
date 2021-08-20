@@ -16,9 +16,9 @@ namespace AuctionApp.API.Controllers
     {
         private IImageService _iamgeService;
 
-        public ImagesController()
+        public ImagesController(IImageService imageService)
         {
-            _iamgeService = new ImageManager();
+            _iamgeService = imageService;
         }
 
         [HttpGet]

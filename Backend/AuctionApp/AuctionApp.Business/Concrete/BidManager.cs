@@ -11,9 +11,9 @@ namespace AuctionApp.Business.Concrete
     public class BidManager : IBidService
     {
         private IBidRepository _bidRepository;
-        public BidManager()
+        public BidManager(IBidRepository bidRepository)
         {
-            _bidRepository = new BidRepository();
+            _bidRepository = bidRepository;
         }
 
         public void Create(Bid entity)

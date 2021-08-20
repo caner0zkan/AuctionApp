@@ -11,9 +11,9 @@ namespace AuctionApp.Business.Concrete
     public class UserManager : IUserService
     {
         private IUserRepository _userRepository;
-        public UserManager()
+        public UserManager(IUserRepository userRepository)
         {
-            _userRepository = new UserRepository();
+            _userRepository = userRepository;
         }
 
         public void Create(User entity)

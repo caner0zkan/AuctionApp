@@ -16,9 +16,9 @@ namespace AuctionApp.API.Controllers
     {
         private IAdminService _adminService;
 
-        public AdminsController()
+        public AdminsController(IAdminService adminservice)
         {
-            _adminService = new AdminManager();
+            _adminService = adminservice;
         }
 
         [HttpGet]

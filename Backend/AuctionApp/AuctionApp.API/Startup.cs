@@ -8,6 +8,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AuctionApp.Business.Abstract;
+using AuctionApp.Business.Concrete;
+using AuctionApp.DataAccess.Abstract;
+using AuctionApp.DataAccess.Concrete;
 
 namespace AuctionApp.API
 {
@@ -24,6 +28,24 @@ namespace AuctionApp.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+
+            services.AddSingleton<IAdminService, AdminManager>();
+            services.AddSingleton<IAuctionService, AuctionManager>();
+            services.AddSingleton<IAuctionStatusService, AuctionStatusManager>();
+            services.AddSingleton<IBidService, BidManager>();
+            services.AddSingleton<ICategoryService, CategoryManager>();
+            services.AddSingleton<IImageService, ImageManager>();
+            services.AddSingleton<IUserService, UserManager>();
+
+            services.AddSingleton<IAdminRepository, AdminRepository>();
+            services.AddSingleton<IAuctionRepository, AuctionRepository>();
+            services.AddSingleton<IAuctionStatusRepository, AuctionStatusRepository>();
+            services.AddSingleton<IBidRepository, BidRepository>();
+            services.AddSingleton<ICategoryRepository, CategoryRepository>();
+            services.AddSingleton<IImageRepository, ImageRepository>();
+            services.AddSingleton<IUserRepository, UserRepository>();
+
 
             services.AddCors();
         }

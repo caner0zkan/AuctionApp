@@ -16,9 +16,9 @@ namespace AuctionApp.API.Controllers
     {
         private IAuctionStatusService _auctionStatusService;
 
-        public AuctionStatusesController()
+        public AuctionStatusesController(IAuctionStatusService auctionStatusService)
         {
-            _auctionStatusService = new AuctionStatusManager();
+            _auctionStatusService = auctionStatusService;
         }
 
         [HttpGet]
