@@ -8,17 +8,19 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
-import { UsersComponent } from './components/users/users.component';
 import { CategoriesComponent } from './components/categories/categories.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { ProductsComponent } from './components/home/products/products.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 const appRoutes: Routes= [
   {path: "", component: HomeComponent}, //localhost:4200
   {path: "home", component: HomeComponent}, //localhost:4200/home
-  {path: "users", component: UsersComponent}, //localhost:4200/users
-  {path: "**", component: NotfoundComponent}
+  {path: "signup", component: SignupComponent}, //localhost:4200/signup
+  {path: "login", component: LoginComponent}, //localhost:4200/login
+  {path: "**", component: NotfoundComponent} //notfound page
 ];
 
 
@@ -28,10 +30,11 @@ const appRoutes: Routes= [
     NavComponent,
     FooterComponent,
     HomeComponent,
-    UsersComponent,
     CategoriesComponent,
     NotfoundComponent,
-    ProductsComponent
+    ProductsComponent,
+    SignupComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
