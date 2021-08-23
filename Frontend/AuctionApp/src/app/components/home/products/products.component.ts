@@ -10,7 +10,7 @@ export class ProductsComponent implements OnInit {
 
   items: any;
   constructor(private http: HttpClient) {
-    http.get("http://localhost:58426/api/admins")
+    http.get("http://localhost:58426/api/auctions")
       .subscribe(response=> {
         this.items = response;
         console.log(response);

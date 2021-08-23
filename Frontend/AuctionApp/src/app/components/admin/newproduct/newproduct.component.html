@@ -1,0 +1,37 @@
+<div class="container">
+  <button class="btn btn-warning w-auto" routerLink="../../admin" style="color: white;">Back</button>
+</div>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>New Product</h1>
+    <p>Please fill in this form to create a new product.</p>
+
+    <label for="title"><b>Title</b></label>
+    <input type="text" placeholder="Enter Title" name="title" maxlength="20" required>
+
+    <label for="comment"><b>Comment</b></label>
+    <input type="text" placeholder="Enter Comment" name="comment" maxlength="150" required>
+
+    <select class="choose" required>
+      <option value="" disabled selected hidden>Please Choose...</option>
+      <option value="0">Car</option>
+      <option value="1">House</option>
+      <option value="2">Electronics</option>
+      <option value="">Antique</option>
+    </select>
+
+    <label for="sdate"><b>Starting date</b></label>
+    <input type="date" placeholder="Enter Starting Date" name="sdate" required>
+
+    <label for="edate"><b>Ending Date</b></label>
+    <input type="date" placeholder="Enter Ending Date" name="edate" required>
+
+    <label for="sprice"><b>Starting Price</b></label>
+    <input type="number" placeholder="Enter Starting Price" name="sprice" required>
+
+    <div class="clearfix">
+      <button type="submit" class="button signupbtn">Create Product</button>
+    </div>
+  </div>
+</form>
