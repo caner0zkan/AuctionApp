@@ -10,7 +10,7 @@ namespace AuctionApp.Entities
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
-        [StringLength(20)]
+        [StringLength(30)]
         public string CategoryName { get; set; }
 
         public List<Auction> Auctions { get; set; }

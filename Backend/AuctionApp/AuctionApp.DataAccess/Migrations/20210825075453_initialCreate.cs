@@ -15,6 +15,7 @@ namespace AuctionApp.DataAccess.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     Surname = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Password = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true)
                 },
                 constraints: table =>
@@ -41,7 +42,7 @@ namespace AuctionApp.DataAccess.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CategoryName = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true)
+                    CategoryName = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -56,6 +57,7 @@ namespace AuctionApp.DataAccess.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     Surname = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Password = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true)
                 },
                 constraints: table =>
@@ -69,12 +71,12 @@ namespace AuctionApp.DataAccess.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    AuctionNumber = table.Column<int>(type: "int", nullable: false),
                     Title = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     Comment = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: true),
+                    StartingPrice = table.Column<int>(type: "int", nullable: false),
                     Winner = table.Column<int>(type: "int", nullable: false),
-                    startingDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    endingTime = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    StartingDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    EndingTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     AdminID = table.Column<int>(type: "int", nullable: false),
                     CategoryID = table.Column<int>(type: "int", nullable: false),
                     AuctionStatusID = table.Column<int>(type: "int", nullable: false)
@@ -108,6 +110,7 @@ namespace AuctionApp.DataAccess.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    UserBid = table.Column<int>(type: "int", nullable: false),
                     BidDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UserID = table.Column<int>(type: "int", nullable: false),
                     AuctionID = table.Column<int>(type: "int", nullable: false)
@@ -130,7 +133,7 @@ namespace AuctionApp.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Image",
+                name: "Images",
                 columns: table => new
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
@@ -140,9 +143,9 @@ namespace AuctionApp.DataAccess.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Image", x => x.ID);
+                    table.PrimaryKey("PK_Images", x => x.ID);
                     table.ForeignKey(
-                        name: "FK_Image_Auctions_AuctionID",
+                        name: "FK_Images_Auctions_AuctionID",
                         column: x => x.AuctionID,
                         principalTable: "Auctions",
                         principalColumn: "ID",
@@ -175,8 +178,8 @@ namespace AuctionApp.DataAccess.Migrations
                 column: "UserID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Image_AuctionID",
-                table: "Image",
+                name: "IX_Images_AuctionID",
+                table: "Images",
                 column: "AuctionID");
         }
 
@@ -186,7 +189,7 @@ namespace AuctionApp.DataAccess.Migrations
                 name: "Bids");
 
             migrationBuilder.DropTable(
-                name: "Image");
+                name: "Images");
 
             migrationBuilder.DropTable(
                 name: "Users");

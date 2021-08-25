@@ -10,6 +10,7 @@ namespace AuctionApp.Entities
     public class Bid
     {
         public int ID { get; set; }
+        public int UserBid { get; set; }
         public DateTime BidDate { get; set; }
 
         //FK

@@ -26,6 +26,9 @@ namespace AuctionApp.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
@@ -53,9 +56,6 @@ namespace AuctionApp.DataAccess.Migrations
                     b.Property<int>("AdminID")
                         .HasColumnType("int");
 
-                    b.Property<int>("AuctionNumber")
-                        .HasColumnType("int");
-
                     b.Property<int>("AuctionStatusID")
                         .HasColumnType("int");
 
@@ -66,18 +66,21 @@ namespace AuctionApp.DataAccess.Migrations
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar(150)");
 
+                    b.Property<DateTime>("EndingTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("StartingDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("StartingPrice")
+                        .HasColumnType("int");
+
                     b.Property<string>("Title")
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
                     b.Property<int>("Winner")
                         .HasColumnType("int");
-
-                    b.Property<DateTime>("endingTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("startingDate")
-                        .HasColumnType("datetime2");
 
                     b.HasKey("ID");
 
@@ -119,6 +122,9 @@ namespace AuctionApp.DataAccess.Migrations
                     b.Property<DateTime>("BidDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("UserBid")
+                        .HasColumnType("int");
+
                     b.Property<int>("UserID")
                         .HasColumnType("int");
 
@@ -139,8 +145,8 @@ namespace AuctionApp.DataAccess.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("CategoryName")
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.HasKey("ID");
 
@@ -164,7 +170,7 @@ namespace AuctionApp.DataAccess.Migrations
 
                     b.HasIndex("AuctionID");
 
-                    b.ToTable("Image");
+                    b.ToTable("Images");
                 });
 
             modelBuilder.Entity("AuctionApp.Entities.User", b =>
@@ -173,6 +179,9 @@ namespace AuctionApp.DataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .HasMaxLength(20)

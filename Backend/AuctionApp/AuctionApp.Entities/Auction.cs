@@ -9,14 +9,14 @@ namespace AuctionApp.Entities
     {
         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
-        public int AuctionNumber { get; set; }
         [StringLength(20)]
         public string Title { get; set; }
         [StringLength(150)]
         public string Comment { get; set; }
+        public int StartingPrice { get; set; }
         public int Winner { get; set; }
-        public DateTime startingDate { get; set; }
-        public DateTime endingTime { get; set; }
+        public DateTime StartingDate { get; set; }
+        public DateTime EndingTime { get; set; }
 
 
         public List<Bid> Bids { get; set; }

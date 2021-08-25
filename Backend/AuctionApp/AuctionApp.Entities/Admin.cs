@@ -14,6 +14,7 @@ namespace AuctionApp.Entities
         public string Name { get; set; }
         [StringLength(20)]
         public string Surname { get; set; }
+        public string Email { get; set; }
         [StringLength(20)]
         public string Password { get; set; }
 

@@ -20,5 +20,6 @@ namespace AuctionApp.DataAccess
         public DbSet<Category> Categories { get; set; }
         public DbSet<Bid> Bids { get; set; }
         public DbSet<AuctionStatus> AuctionStatuses { get; set; }
+        public DbSet<Image> Images { get; set; }
     }
 }
