@@ -10,12 +10,12 @@
   </ul>
   -->
 
-  <div class="card m-3" style="width: 18rem; display: inline-block;">
+  <div *ngFor="let item of items" class="card m-3" style="width: 18rem; display: inline-block;">
     <img src="../../../assets/img/1.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Starting Price: <span style="color: blueviolet;"><b>150 $</b></span></p>
-      <p class="card-text">Ending Date: 06-12-2021</p>
+      <h5 class="card-title">{{item.title}}</h5>
+      <p class="card-text">Starting Price: <span style="color: blueviolet;"><b>{{item.startingPrice}} $</b></span></p>
+      <p class="card-text">Ending Date: {{item.endingTime}}</p>
       <a href="#" class="btn btn-primary">Detail</a>
     </div>
   </div>
