@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewproductComponent implements OnInit {
 
-  constructor(private http:HttpClient) { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
   }
@@ -25,17 +25,19 @@ export class NewproductComponent implements OnInit {
   createPost(inputTitle:HTMLInputElement,inputComment:HTMLInputElement,
     inputStartingDate:HTMLInputElement,inputEndingDate:HTMLInputElement,
     inputStartingPrice:HTMLInputElement){
+      let y=0;
+      y = +inputStartingPrice.value;
 
-    const post={
+    const post = {
       Title: inputTitle.value,
       Comment: inputComment.value,
-      startingPrice: inputStartingPrice.value,
+      StartingPrice: y,
       Winner:1,
       StartingDate: inputStartingDate.value,
-      EndingDate: inputEndingDate.value,
+      EndingTime: inputEndingDate.value,
       AdminID:1,
-      CategoryId: this.x,
-      AuctionStatus: 1
+      CategoryID: this.x,
+      AuctionStatusID: 1
     }
     console.log(post);
 

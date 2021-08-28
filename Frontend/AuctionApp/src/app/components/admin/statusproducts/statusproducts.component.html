@@ -15,7 +15,7 @@
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
         <ul class="list-group list-group-flush">
-          <a href="" style="text-decoration-line: none;"><li class="list-group-item">Product <span style="color: blueviolet;"><b>150 $</b></span></li></a>
+          <a *ngFor="let item of items" href="" style="text-decoration-line: none;"><li *ngIf="item.auctionStatusID == 1" class="list-group-item">{{item.title}}    <span style="color: blueviolet;"><b>{{item.startingPrice}} $</b></span></li></a>
         </ul>
       </div>
 
@@ -29,7 +29,7 @@
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
         <ul class="list-group list-group-flush">
-          <a href="" style="text-decoration-line: none;"><li class="list-group-item">Product <span style="color: blueviolet;"><b>150 $</b></span></li></a>
+          <a *ngFor="let item of items" href="" style="text-decoration-line: none;"><li *ngIf="item.auctionStatusID == 2" class="list-group-item">{{item.title}}    <span style="color: blueviolet;"><b>{{item.startingPrice}} $</b></span></li></a>
         </ul>
       </div>
 
@@ -42,7 +42,7 @@
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
         <ul class="list-group list-group-flush">
-          <a href="" style="text-decoration-line: none;"><li class="list-group-item">Product <span style="color: blueviolet;"><b>150 $</b></span></li></a>
+          <a *ngFor="let item of items" href="" style="text-decoration-line: none;"><li *ngIf="item.auctionStatusID == 3" class="list-group-item">{{item.title}}    <span style="color: blueviolet;"><b>{{item.startingPrice}} $</b></span></li></a>
         </ul>
       </div>
 
