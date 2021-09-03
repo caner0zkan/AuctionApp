@@ -15,15 +15,17 @@ import { SignupComponent } from './components/signup/signup.component';
 import { LoginComponent } from './components/login/login.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { UserComponent } from './components/user/user.component';
-import { ProductComponent } from './components/home/product/product.component';
 import { NewproductComponent } from './components/admin/newproduct/newproduct.component';
 import { StatusproductsComponent } from './components/admin/statusproducts/statusproducts.component';
 import { UpdateproductComponent } from './components/admin/updateproduct/updateproduct.component';
+import { ProductComponent } from './components/product/product.component';
 
 
 const appRoutes: Routes= [
   {path: "", component: HomeComponent}, //localhost:4200
   {path: "home", component: HomeComponent}, //localhost:4200/home
+  {path: "home/products", component: HomeComponent}, //localhost:4200/home/products
+  {path: "product/:id", component: ProductComponent}, //localhost:4200/home/product
   {path: "signup", component: SignupComponent}, //localhost:4200/signup
   {path: "login", component: LoginComponent}, //localhost:4200/login
   {path: "admin", component: AdminComponent}, //localhost:4200/admin
@@ -47,10 +49,10 @@ const appRoutes: Routes= [
     LoginComponent,
     AdminComponent,
     UserComponent,
-    ProductComponent,
     NewproductComponent,
     StatusproductsComponent,
-    UpdateproductComponent
+    UpdateproductComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
