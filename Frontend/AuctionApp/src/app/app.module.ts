@@ -32,6 +32,7 @@ const appRoutes: Routes= [
   {path: "user", component: UserComponent}, //localhost:4200/user
   {path: "admin/newproduct", component: NewproductComponent}, //localhost:4200/admin/newproduct
   {path: "admin/statusproducts", component: StatusproductsComponent}, //localhost:4200/admin/statusproduct
+  {path: "admin/updateproduct", component: UpdateproductComponent}, //localhost:4200/admin/updateproduct
   {path: "**", component: NotfoundComponent} //notfound page
 ];
 
