@@ -1,14 +1,14 @@
 <div class="container mt-5">
   <h1>Admin Panel</h1>
 
-  <p><b>Name: </b>aaa</p>
-  <p><b>Surname: </b>bbb</p>
-  <p><b>Email: </b>ccc</p>
-  <p><b>Password: </b>ddd</p>
+  <p><b>Name: </b>{{items.name}}</p>
+  <p><b>Surname: </b>{{items.surname}}</p>
+  <p><b>Email: </b>{{items.email}}</p>
+  <p><b>Password: </b>{{items.password}}</p>
 
 
   <div class="clearfix">
-    <button type="submit" class="btn btn-success" routerLink="./newproduct">New Product</button>
-    <button type="submit" class="btn btn-success" routerLink="./statusproducts" style="margin-left: 10px;">Products Status</button>
+    <button type="submit" class="btn btn-success" routerLink="/admin/newproduct">New Product</button>
+    <button type="submit" class="btn btn-success" routerLink="/admin/statusproducts" style="margin-left: 10px;">Products Status</button>
   </div>
 </div>
