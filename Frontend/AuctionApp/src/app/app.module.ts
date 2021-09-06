@@ -30,7 +30,7 @@ const appRoutes: Routes= [
   {path: "login", component: LoginComponent}, //localhost:4200/login
   {path: "admin", component: AdminComponent}, //localhost:4200/admin
   //{path: "admin/:id", component: AdminComponent}, //localhost:4200/admin
-  {path: "user", component: UserComponent}, //localhost:4200/user
+  {path: "user/:id", component: UserComponent}, //localhost:4200/user/id
   {path: "admin/newproduct", component: NewproductComponent}, //localhost:4200/admin/newproduct
   {path: "admin/statusproducts", component: StatusproductsComponent}, //localhost:4200/admin/statusproduct
   {path: "admin/updateproduct/:id", component: UpdateproductComponent}, //localhost:4200/admin/updateproduct/id
