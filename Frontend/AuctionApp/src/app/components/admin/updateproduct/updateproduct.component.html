@@ -1,1 +1,39 @@
-<p>updateproduct works!</p>
+<div class="container">
+  <button class="btn btn-warning w-auto" routerLink="../../admin" style="color: white;">Back</button>
+</div>
+
+
+  <div class="container">
+    <h1>Update Product</h1>
+    <p>Please fill in this form to update product.</p>
+
+    <label for="title"><b>Title</b></label>
+    <input #inputTitle value="{{items.title}}" type="text" placeholder="Enter Title" name="title" maxlength="20" required>
+
+    <label for="comment"><b>Comment</b></label>
+    <input #inputComment value="{{items.comment}}" type="text" placeholder="Enter Comment" name="comment" maxlength="150" required>
+
+    <label for="category"><b>Category</b></label>
+    <select (change)="selectChangeHandler($event)" class="choose" required>
+      <option value="" disabled selected hidden>Please Select Category</option>
+      <option value=1>House</option>
+      <option value=2>Car</option>
+      <option value=3>Furniture</option>
+      <option value=4>Electronics</option>
+      <option value=5>Antique</option>
+    </select>
+
+    <label for="sdate"><b>Starting Date</b></label>
+    <input #inputStartingDate type="date" placeholder="Enter Starting Date" name="sdate" required>
+
+    <label for="edate"><b>Ending Date</b></label>
+    <input #inputEndingDate type="date" placeholder="Enter Ending Date" name="edate" required>
+
+    <label for="sprice"><b>Starting Price</b></label>
+    <input #inputStartingPrice type="number" placeholder="Enter Starting Price" name="sprice" required>
+
+    <div class="clearfix">
+      <button type="submit" class="button signupbtn" (click)="updateItem(inputTitle,inputComment,inputStartingDate,inputEndingDate,inputStartingPrice)">Update Product</button>
+    </div>
+  </div>
+

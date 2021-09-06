@@ -25,14 +25,14 @@ const appRoutes: Routes= [
   {path: "", component: HomeComponent}, //localhost:4200
   {path: "home", component: HomeComponent}, //localhost:4200/home
   {path: "home/products", component: HomeComponent}, //localhost:4200/home/products
-  {path: "product/:id", component: ProductComponent}, //localhost:4200/home/product
+  {path: "product/:id", component: ProductComponent}, //localhost:4200/home/product/id
   {path: "signup", component: SignupComponent}, //localhost:4200/signup
   {path: "login", component: LoginComponent}, //localhost:4200/login
   {path: "admin", component: AdminComponent}, //localhost:4200/admin
   {path: "user", component: UserComponent}, //localhost:4200/user
   {path: "admin/newproduct", component: NewproductComponent}, //localhost:4200/admin/newproduct
   {path: "admin/statusproducts", component: StatusproductsComponent}, //localhost:4200/admin/statusproduct
-  {path: "admin/updateproduct", component: UpdateproductComponent}, //localhost:4200/admin/updateproduct
+  {path: "admin/updateproduct/:id", component: UpdateproductComponent}, //localhost:4200/admin/updateproduct/id
   {path: "**", component: NotfoundComponent} //notfound page
 ];
 
