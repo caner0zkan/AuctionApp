@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oDVsL+eKo99u0/gy7rBhuT6PA5EcBdKtE3W/6PXibhirMRBkFExkgqkDKT4HDu8hJ8ez+lwxcFkvVGFOT1bVnA==",
+  "dgSpecHash": "o0hAvf43xtGbyinTzuqd+I0485NWKlqiMbzqeMkI8uWLg4QA2R9tziD/oWxkd2tLsZF0UOuaMY0IV2ItCFUZIA==",
   "success": true,
   "projectFilePath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.API\\AuctionApp.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\caner\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.18\\microsoft.aspnetcore.authentication.jwtbearer.3.1.18.nupkg.sha512",
     "C:\\Users\\caner\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\caner\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\caner\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

@@ -164,3 +164,4 @@ C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.API\obj\Debug\ne
 C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.API\obj\Debug\netcoreapp3.1\AuctionApp.API.dll
 C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.API\obj\Debug\netcoreapp3.1\AuctionApp.API.pdb
 C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.API\obj\Debug\netcoreapp3.1\AuctionApp.API.genruntimeconfig.cache
+C:\App Projects\GitHub\AuctionApp\Backend\AuctionApp\AuctionApp.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
