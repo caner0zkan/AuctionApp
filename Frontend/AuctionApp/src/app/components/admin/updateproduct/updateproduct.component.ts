@@ -38,6 +38,7 @@ export class UpdateproductComponent implements OnInit {
       y = +inputStartingPrice.value;
 
     const put = {
+      id: parseInt(this.param),
       Title: inputTitle.value,
       Comment: inputComment.value,
       StartingPrice: y,

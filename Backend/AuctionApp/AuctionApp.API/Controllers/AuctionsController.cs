@@ -39,7 +39,7 @@ namespace AuctionApp.API.Controllers
             _auctionService.Create(auction);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public void Put([FromBody] Auction auction)
         {
             _auctionService.Update(auction);
