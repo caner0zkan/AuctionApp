@@ -13,7 +13,7 @@ namespace AuctionApp.DataAccess.Concrete
     {
         public void Create(T entity)
         {
-            using(var context = new TContext()) 
+            using (var context = new TContext())
             {
                 context.Set<T>().Add(entity);
                 context.SaveChanges();
