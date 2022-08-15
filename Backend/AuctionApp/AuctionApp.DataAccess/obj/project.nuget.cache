@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cGzUPSNNU5vzoG+8nadZ0zY2nMhJLdqroWs22MTtXmKD0BAmEOXpg7a25wIB9GYw/sr15SJUavMPlNDjS1olag==",
+  "dgSpecHash": "bpv45EFoV5vUYoi3CmN3PPQu9xRK59YpI1Mhr3/96H/Kh7oZe2zSddPv+w1ogzFHFNeFW7XSvDgedzuy88TFZw==",
   "success": true,
   "projectFilePath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.DataAccess\\AuctionApp.DataAccess.csproj",
   "expectedPackageFiles": [

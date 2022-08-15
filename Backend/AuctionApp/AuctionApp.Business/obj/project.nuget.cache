@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "c8HV4PCicrbHYuUp98yqePmFxrdJmrT0569T5Czih70pndrjUq+XgvJK3Rh6mISKLrJtfuX+Yy5XfpWvNd2rng==",
+  "dgSpecHash": "vgsor51bxQeofhbNgxMjWk31mTAeEk8gLqJ0fkFTNmyrm6TnNFyBhlPYnX/0D10QArIC7annf5bEKLLWtyanhg==",
   "success": true,
   "projectFilePath": "C:\\App Projects\\GitHub\\AuctionApp\\Backend\\AuctionApp\\AuctionApp.Business\\AuctionApp.Business.csproj",
   "expectedPackageFiles": [
